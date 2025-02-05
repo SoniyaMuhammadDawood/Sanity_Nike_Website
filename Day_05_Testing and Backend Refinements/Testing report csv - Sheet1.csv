@@ -1,0 +1,8 @@
+Test Case ID,Test Case Description,Test Steps,Expected Result,Actual Result,Status,Security Level,Assign To,Remarks
+TC001,Validate product Listning page,Open product page -> validate product,Products Display Successfully,Products Display Successfully,Passed,Low,          ---- ,No Issue Found
+TC002,Test API error handling,Disconnect Gorq Query > Refresh Page,Show Error Message on Screen,Show Error Message on Screen,Passed,Low,          ---- ,Handle Gracefully
+TC003,Check Cart Functionality,Add To Cart > Navigate To Cart,Displaying Products On Cart,Displaying Products On Cart,Passed,Medium,          ---- ,Successfully
+TC004,Ensure Responsiveness On Mobile,Inspect > Device Toolbar > Select Mobile Device,Showing Content according to the device,Showing Content according to the device,Passed,Medium,          ---- ,Responsive
+TC005,Validate Search Bar,Search Those Items which has not in sanity,Showing Dropdown > No Product Found,Dropdown not showing while searching irrelevent products,Passed,high,          ---- ,Don’t show error
+TC006,Validate Dynamic Product Details Page,Product Page > Click to any product card,Open Dynamic Product Detail Page,Open Dynamic Product Detail Page,Passed,Medium,          ---- ,Successfully
+TC007,Cross Browsering,"Open Our website on different Browsers such as yahoo, google, safari, edge",Working Correctly on every browsers,Working Correctly on every browsers,Passed,Medium,          ---- ,Successfully

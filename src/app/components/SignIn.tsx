@@ -1,8 +1,18 @@
 import Image from "next/image";
 import Link from "next/link";
+import Footer from "./Footer";
+import { MainNav } from "./Main-nav";
+import { SiteHeader } from "./Site-header";
 
 export default function SignIn() {
   return (
+    <div>
+       {/* Main Nav */}
+          <MainNav/>
+      
+          {/* Site Header */}
+          <SiteHeader/>
+   
     <div className="min-h-screen flex flex-col items-center justify-center px-4 py-8">
       <div className="w-full max-w-[380px] space-y-4">
         {/* Nike Logo */}
@@ -77,6 +87,8 @@ export default function SignIn() {
           </Link>
         </div>
       </div>
+    </div>
+    <Footer/>
     </div>
   );
 }

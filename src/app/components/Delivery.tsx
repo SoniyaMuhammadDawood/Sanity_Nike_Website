@@ -1,6 +1,9 @@
 // pages/ShoppingCart.tsx or your component file
 import { Heart, Trash2 } from "lucide-react"
 import Image from "next/image"
+import { MainNav } from "./Main-nav"
+import { SiteHeader } from "./Site-header"
+import Footer from "./Footer"
 
 
 
@@ -8,6 +11,11 @@ import Image from "next/image"
 
 export default function Delivery() {
   return (
+
+    <div>
+      <MainNav/>
+            <SiteHeader/>
+   
     <div className="min-h-screen bg-white">
      
 
@@ -137,6 +145,8 @@ export default function Delivery() {
           </div>
         </div>
       </div>
+    </div>
+    <Footer/>
     </div>
   )
 }

@@ -5,6 +5,9 @@ import { FeaturedSection } from "./components/Featured-section";
 import Carousal2 from "./components/product-carousel";
 import { FlightEssentials } from "./components/flight-essentials";
 import ProductCategories from "./components/MainLast";
+import { MainNav } from "./components/Main-nav";
+import { SiteHeader } from "./components/Site-header";
+import Footer from "./components/Footer";
 
 
 
@@ -12,7 +15,12 @@ export default function Home() {
   return (
    <div>
 
+    {/* Main Nav */}
+    <MainNav/>
 
+    {/* Site Header */}
+    <SiteHeader/>
+    
     {/* Hero Secion */}
     <HeroSection/>
 
@@ -32,7 +40,8 @@ export default function Home() {
    {/* Last content */}
    <ProductCategories/>
 
-   
+   {/* Footer */}
+   <Footer/>
     
    </div>
   );

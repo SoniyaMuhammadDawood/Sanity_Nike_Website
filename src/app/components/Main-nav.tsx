@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import Login from "./Login";
 
 export function MainNav() {
   return (
@@ -37,6 +38,8 @@ export function MainNav() {
         <Link href="/signIn" className="hover:text-gray-600">
           Sign In
         </Link>
+        <span>|</span>
+          <Login/>
       </div>
     </div>
     </header>

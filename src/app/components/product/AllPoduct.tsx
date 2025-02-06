@@ -1,9 +1,15 @@
+import Footer from "../Footer";
+import { MainNav } from "../Main-nav";
+import { SiteHeader } from "../Site-header";
 import { ProductGrid } from "./Product-grid";
 import { Sidebar } from "./Sidebar";
 
 
 export default function Shop() {
   return (
+    <div>
+      <MainNav/>
+      <SiteHeader/>
     <div className="min-h-screen bg-white">
       
       <header className="border-b border-gray-200 px-4 py-4">
@@ -29,6 +35,9 @@ export default function Shop() {
           </main>
         </div>
       </div>
+    </div>
+
+    <Footer/>
     </div>
   )
 }

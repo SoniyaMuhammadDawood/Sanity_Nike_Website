@@ -2,10 +2,20 @@ import { Search } from 'lucide-react'
 import { MdOutlinePhoneIphone, MdTextsms, MdLocationPin } from "react-icons/md";
 import { TfiEmail } from "react-icons/tfi";
 import { IoIosThumbsUp, IoIosThumbsDown } from "react-icons/io";
+import { SiteHeader } from './Site-header';
+import { MainNav } from './Main-nav';
+import Footer from './Footer';
 
 
 export default function HelpCenter() {
   return (
+    <div>
+       {/* Main Nav */}
+          <MainNav/>
+      
+          {/* Site Header */}
+          <SiteHeader/>
+
     <div className="min-h-screen bg-white">
       <div className="container mx-auto px-4 py-8">
     
@@ -159,6 +169,8 @@ export default function HelpCenter() {
 
         </div>
       </div>
+    </div>
+    <Footer/>
     </div>
   )
 }
